@@ -11,7 +11,7 @@ public class NoticeController {
 	@RequestMapping("/list") // 최근에는 GetMapping으로 바뀌었음
 	public String list(Model model) {
 		
-		model.addAttribute("test", "Hello~");
+		model.addAttribute("test", "Hello~ Devtools!!!");
 		
 		return "/customer/notice/list";
 	}
